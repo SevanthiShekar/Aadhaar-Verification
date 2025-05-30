@@ -44,8 +44,8 @@ function GenerateOTP()
        }`;  */
 
     //RESPONSE 3: FALIURE 2
-    /*`{ "code": 200, "timestamp": 1672226687297, "transaction_id": "a4d95225-1802-475b-a990-e57af523ea6e",
-         "message": "OTP generated for this aadhaar, please try after 45 seconds" }`; */ 
+    /* `{ "code": 200, "timestamp": 1672226687297, "transaction_id": "a4d95225-1802-475b-a990-e57af523ea6e",
+         "message": "OTP generated for this aadhaar, please try after 45 seconds" }`; */
 
     //RESPONSE 4: FALIURE 3
     /* `{ "code": 422, "timestamp": 1647439112623, "transaction_id": "250c5051-ecec-4803-9a1e-4e0b2f88cff8",
@@ -151,7 +151,7 @@ function VerifyOTP()
   {
     const response = 
     //RESPONSE 1: SUCCESS
-     `{ "code": 200, "timestamp": 1647439112523,"transaction_id": "250c5051-ecec-4803-9a1e-4e0b2f88cff8",
+    `{ "code": 200, "timestamp": 1647439112523,"transaction_id": "250c5051-ecec-4803-9a1e-4e0b2f88cff8",
        "data": { "@entity": "in.co.sandbox.kyc.aadhaar.okyc", "reference_id": "1234567", "status": "VALID",
                  "message": "Aadhaar Card Exists", "care_of": "S/O: Johnny Doe",
                  "full_address": "Mangal Kanaka Niwas, Main Cross 3rd, Bengaluru, Bengaluru-Karnataka, India ",
@@ -168,13 +168,13 @@ function VerifyOTP()
            
     //RESPONSE 2: FALIURE 1
     /* `{ "code": 200, "timestamp": 1672226687297, "transaction_id": "a4d95225-1802-475b-a990-e57af523ea6e",
-          "message": "Request under process, please try after 30 seconds" }`;  */
+          "message": "Request under process, please try after 30 seconds" }`; */
 
     //RESPONSE 3: FALIURE 2
     /* `{ "code": 200, "timestamp": 1647439112523, "transaction_id": "250c5051-ecec-4803-9a1e-4e0b2f88cff8",
           "data": { "@entity": "in.co.sandbox.kyc.aadhaar.okyc", "message": "Invalid OTP"} 
-        }`;  
-        */
+        }`;  */
+        
 
     //RESPONSE 4: FALIURE 3
     /* `{ "code": 200, "timestamp": 1715627385316, "transaction_id": "689093f0-0331-4022-bf01-ea67687f955a",
