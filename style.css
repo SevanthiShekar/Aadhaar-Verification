@@ -1,0 +1,158 @@
+*{  margin: 0;
+    padding: 0;
+    background-color:rgba(248, 248, 255, 0.671);
+}
+a{  text-decoration: none; }
+
+/*Header Styling*/
+header
+{   display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 5px 5px;
+}
+header img
+{   width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+header h1
+{   font-family: body;
+}
+hr
+{       border: none;
+    height: 2px;
+    background-color:darkgray;
+}
+/*Main Styling*/
+section
+{   display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 140px;
+}
+.form
+{   display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 2px solid lightgray;
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 10px;
+    padding: 20px 20px;
+    width: 350px;
+    height: 150px;
+}
+.form label
+{   font-family: body;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+.form input
+{   border: 2px solid grey;
+    border-radius: 3px;
+    padding: 5px 5px;
+    margin-bottom: 15px;
+}
+.form button
+{   background-color:dodgerblue;
+    color:whitesmoke;
+    border: 2px solid #185da2;
+    border-radius: 3px;
+    padding: 2px 0px;
+    font-family: body;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: background-color 0.25s ease-in;
+}
+.form button:hover
+{   background-color: #1e8fffb0;
+    font-size: 1.15rem;
+}
+.message
+{   margin-top: -10px;
+    margin-bottom: 10px;
+}
+.aadhaar
+{   border: 3px solid lightslategray;
+    border-radius: 15px;
+    box-shadow: 2px 2px 5px grey;
+    margin-top: -50px;
+    width: 450px;
+    height: 270px;
+}
+.main h1
+{   font-family: body;
+    font-size: 0.9rem;
+    margin-bottom: -7px;
+}
+.address
+{   text-align: left;
+    padding: 2px 2px;
+    font-family: body;
+    font-weight: bold;
+    font-size: 0.85rem;
+}
+.row
+{  display: flex;
+}
+.column
+{   display: flex;
+    flex-direction: column;
+}
+.image1
+{   width:450px;
+    height:45px;
+    border-radius: 15px;
+}
+.image2
+{   width:350px;
+    height:25px;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+.photo
+{   border: 2px solid lightgray;
+    width: 90px;
+    height: 90px;
+    border-radius: 15px;
+    margin: 5px 20px;
+}
+.box1
+{   padding: 2px 5px;
+}
+.red-rule
+{   border: none;
+    height: 2px;
+    background-color: tomato;
+    margin-bottom: 3px;
+}
+/*Footer Styling*/
+footer
+{   display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer i
+{   padding: 10px 10px;
+    font-size: larger;
+}
+footer p
+{   font-family: body;
+}
+.home_icon
+{  color: lightskyblue;
+}
+.fb_icon
+{  color: blue;
+}
+.x_icon
+{  color: black;
+}
+.yt_icon
+{  color: red;
+}
+@font-face 
+{   font-family: body;
+    src: url(Fonts/Catamaran-VariableFont_wght.ttf);
+}

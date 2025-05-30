@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aadhaar Verification</title>
+
+    <!--Linking Icons Kit-->
+    <script src="https://kit.fontawesome.com/8bc603981b.js" crossorigin="anonymous"></script>
+
+    <!--Linking Stylesheet-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <img src="Images/Aadhaar.png" alt="Aadhaar Logo">
+        <h1>Aadhaar Verification</h1>
+    </header>
+    <hr>
+
+    <!--Main Section-->
+    <main>
+        <section id="section">
+            <div class="form" id="form">
+                <label for="aadhaar_number" id="label">Enter your 12-digit Aadhaar number:</label>
+                <input type="text" placeholder="123412341234" maxlength="12" autocomplete="off" id="aadhaar_number">
+                <p id="info"> </p>
+                <button id="button" onclick="GenerateOTP()">Generate OTP</button>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+    <hr>
+    <footer>
+        <div class="icons">
+            <a class="home_icon" href="index2.html" target="_blank" title="UIDAI Home Page">
+                <i class="fa-solid fa-house-chimney"></i>
+            </a>
+            <a class="fb_icon" href="https://www.facebook.com/" target="_blank" title="Facebook Page">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a class="x_icon" href="https://twitter.com" target="_blank" title="X Page">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a class="yt_icon" href="https://www.youtube.com/@AadhaarUIDAI" target="_blank" title="UIDAI Youtube Channel">
+                <i id="youtube" class="fa-brands fa-youtube"></i>
+            </a>
+        </div>
+        <p>&copy; 2024 Aadhaar Verification</p>
+    </footer>
+
+    <!--Linkning Script-->
+    <script src="scripts.js"></script>
+</body>
+</html>
