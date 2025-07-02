@@ -180,11 +180,11 @@ footer p
 .message
 {   margin-top: -5px;
     margin-bottom: 5px;
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 .aadhaar
-{   width: 425px;
-    height: 250px;
+{   width: 400px;
+    height: 225px;
 }
 .main h1
 {   font-size: 0.8rem;
@@ -194,24 +194,24 @@ footer p
     margin-top: 3px;
 }
 .image1
-{   width:425px;
-    height:40px;
+{   width:400px;
+    height:35px;
 }
 .image2
 {   width:325px;
     height:20px;
 }
 .photo
-{   width: 85px;
-    height: 85px;
+{   width: 80px;
+    height: 80px;
     border-radius: 15px;
-    margin: 5px 20px;
+    margin: 5px 15px;
 }
 .box1
 {   padding: 3px 5px;
 }
 .footer
 {
-    margin-bottom: none;
+    display: none;
 }
 }
