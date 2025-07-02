@@ -20,7 +20,7 @@ header h1
 {   font-family: body;
 }
 hr
-{       border: none;
+{   border: none;
     height: 2px;
     background-color:darkgray;
 }
@@ -155,4 +155,84 @@ footer p
 @font-face 
 {   font-family: body;
     src: url(Fonts/Catamaran-VariableFont_wght.ttf);
+}
+@media (max-width: 500px)
+{
+    header img
+    {   width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    header h1
+    {   font-size: 1.5rem;
+    }
+    .form
+    {   padding: 15px 15px;
+        width: 325px;
+        height: 150px;
+    }
+    .form label
+    {   margin-bottom: 5px;
+        font-size: 1rem;
+    }
+    .form input
+    {   border: 2px solid grey;
+        border-radius: 3px;
+        padding: 3px 3px;
+        margin-bottom: 12px;
+    }
+    .form button
+    {   font-size: 1rem;
+    }
+    .form button:hover
+    {   background-color: #1e8fffb0;
+        font-size: 1.1rem;
+    }
+    .message
+    {   margin-top: -10px;
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+    .aadhaar
+    {   width: 350px;
+        height: 220px;
+    }
+    .main h1
+    {   font-size: 0.8rem;
+        margin-bottom: -7px;
+    }
+    .address
+    {   font-size: 0.8rem;
+    }
+    p
+    {
+        line-height: 1.2;
+    }
+    .image1
+    {   width:350px;
+        height:35px;
+    }
+    .image2
+    {   width:250px;
+        height: 20px;
+    }
+    .photo
+    {   width: 70px;
+        height: 70px;
+        border-radius: 10px;
+        margin: 3px 10px;
+    }
+    .box1
+    {   padding: 2px 2px;
+    }
+    .red-rule
+    {   border: none;
+        height: 1.5px;
+        background-color: tomato;
+        margin-bottom: 2px;
+    }
+    footer
+    {
+        display: none;
+    }
 }
