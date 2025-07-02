@@ -156,3 +156,58 @@ footer p
 {   font-family: body;
     src: url(Fonts/Catamaran-VariableFont_wght.ttf);
 }
+ @media all and (max-width: 500px)
+ {
+    .form
+{   padding: 15px 15px;
+    width: 300px;
+    height: 150px;
+}
+.form label
+{   font-size: 1rem;
+}
+.form input
+{   padding: 3px 3px;
+    margin-bottom: 12px;
+}
+.form button
+{   font-size: 1rem;
+}
+.form button:hover
+{   background-color: #1e8fffb0;
+    font-size: 1.1rem;
+}
+.message
+{   margin-top: -5px;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+.aadhaar
+{   width: 425px;
+    height: 250px;
+}
+.main h1
+{   font-size: 0.8rem;
+}
+.address
+{   font-size: 0.8rem;
+    margin-top: 3px;
+}
+.image1
+{   width:425px;
+    height:40px;
+}
+.image2
+{   width:325px;
+    height:20px;
+}
+.photo
+{   width: 85px;
+    height: 85px;
+    border-radius: 15px;
+    margin: 5px 20px;
+}
+.box1
+{   padding: 3px 5px;
+}
+}
