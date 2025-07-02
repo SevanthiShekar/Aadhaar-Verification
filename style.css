@@ -210,4 +210,8 @@ footer p
 .box1
 {   padding: 3px 5px;
 }
+.footer
+{
+    margin-bottom: none;
+}
 }
